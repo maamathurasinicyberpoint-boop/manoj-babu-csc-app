@@ -1,29 +1,26 @@
 # manoj-babu-csc-app
 
-A full-featured CSC home delivery app with simple login options: mobile OTP, Gmail, password, and optionally Aadhaar (but prioritize easy login). Include admin & user dashboards, service order, payment gateway, QR, and document upload.
+**No authentication required, all features are accessible without login, ID, or password—entirely free.**
+
+A simple CSC home delivery app with public access to all features. No login or authentication needed - completely free and open to use.
 
 ## Features
-
-- **Easy Login Options:**
-  - Mobile OTP
-  - Gmail/Google Login
-  - Password-based Login
-  - Aadhaar (Optional)
 
 - **User Dashboard:** Track orders, view services, manage profile
 - **Admin Dashboard:** Manage users, services, orders, and payments
 - **Service List:** Browse available CSC services
 - **Order Form:** Submit service requests
-- **Payment Gateway:** Secure online payments
-- **QR Code Support:** Quick service access
+- **Payment:** Payment gateway integration
 - **Document Upload:** Upload required documents for services
+
+**Important:** This application does NOT require any form of authentication. All pages and features are publicly accessible without needing to create an account, login, or provide any credentials.
 
 ## Tech Stack
 
 - **Frontend:** React + Vite
 - **Routing:** React Router
-- **Backend (Planned):** Firebase
-- **Payment (Planned):** Payment Gateway Integration
+- **No Backend Authentication:** Everything is client-side and public
+- **No Login System:** Free access to all features
 
 ## Getting Started
 
@@ -44,18 +41,21 @@ npm run build
 manoj-babu-csc-app/
 ├── src/
 │   ├── pages/
-│   │   ├── Login.jsx
+│   │   ├── Home.jsx
 │   │   ├── UserDashboard.jsx
 │   │   ├── AdminDashboard.jsx
 │   │   ├── ServiceList.jsx
 │   │   ├── OrderForm.jsx
-│   │   └── Payment.jsx
+│   │   ├── Payment.jsx
+│   │   └── DocumentUpload.jsx
 │   ├── components/
-│   ├── firebase/
-│   ├── payment/
 │   ├── App.jsx
 │   └── main.jsx
 ├── public/
 ├── package.json
 └── vite.config.js
 ```
+
+## License
+
+Free and open for all users - no restrictions.
